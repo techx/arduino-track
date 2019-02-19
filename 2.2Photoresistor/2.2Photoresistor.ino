@@ -1,35 +1,34 @@
 /*
-  Button
+  Photoresistor
 
-  This example shows how to control an LED using
-  a simple digital button.
+  This example shows how to print analog values 
+  to the serial monitor, using a photoresistor
 
   Copyright 2019 HackMIT (Kye Burchard)
  */
 
+int sensor = A5;
 int led = 13;
-int button = 7;
+
+int THRESHOLD = 200;
 
 void setup() {
   // initialize the digital pin as an output
   pinMode(led, OUTPUT);
 
-  // initialize the button pin as an active-low input
-  pinMode(button, INPUT_PULLUP);
-
   // open serial
-  Serial.begin(115200);
+  Serial.begin(9600);
 }
 
 void loop() {
   // read the value from the button
-  int value = digitalRead(button);
+  int value = analogRead(sensor);
 
   // print this value to the serial monitor
   Serial.println(value);
 
-  // turn on LED if value is 0, off if value is 1
-  if (value == 0) {
+  // turn on LED if value is above/below a threshold
+  if (value > THRESHOLD) {
     digitalWrite(led, HIGH);
   } else {
     digitalWrite(led, LOW);
