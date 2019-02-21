@@ -22,39 +22,35 @@ int y;
 int loop_period = 50;
 
 void setup() {
+  // initialize LCD
   lcd.begin(16, 2);
-  Serial.begin(115200);
 }
 
 void loop() {
+  // read value from joystick
   val_x = analogRead(joystick_x);
   val_y = analogRead(joystick_y);
 
+  // rescale joystick values to -1, 0, or 1
   val_x = map(val_x, 0, 1023, -1, 2);
   val_y = map(val_y, 0, 1023, -1, 2);
 
 
-  // clear the previous position
+  // clear the previous ball
   lcd.setCursor(x, y);
   lcd.print(" ");
   
   x = (x + val_x) % 16;
+
+  // correct negatives
   if (x < 0) {
     x += 16;
     }
   y = (y + val_y) % 2;
 
+  // print the new ball
   lcd.setCursor(x, y);
   lcd.print("o");
-
-  Serial.println(x);
-
-//  lcd.setCursor(0, 0);
-//  lcd.print(val_x);
-//  lcd.setCursor(0, 1);
-//  lcd.print(val_y)
-//  Serial.println(val_x);
-//  Serial.println(val_y);
 
   delay(loop_period);
 }
