@@ -10,7 +10,9 @@
 int sensor = A5;
 int led = 13;
 
-int THRESHOLD = 200;
+// TODO: pick a reasonable threshold based on serial
+// plot
+int THRESHOLD = 0;
 
 void setup() {
   // initialize the digital pin as an output
