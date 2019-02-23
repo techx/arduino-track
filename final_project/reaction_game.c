@@ -6,6 +6,7 @@ int Led2Pin =  // etc.
 int Led3Pin =
 int Led4Pin =
 int Led5Pin =
+// ...add more if necessary
 
 // #TODO Which pin will you use for the button?
 int ButtonPin =
