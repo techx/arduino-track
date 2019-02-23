@@ -9,8 +9,7 @@
 #include <LiquidCrystal.h>
 
 // initialize the library with the numbers of the interface pins
-LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
-
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 int joystick_x = 1;
 int joystick_y = 0;
