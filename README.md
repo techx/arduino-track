@@ -1,5 +1,9 @@
 # MIT Blueprint Learnathon 2019 Arduino Track
 
+![Blueprint 2019 banner](img/banner.png)
+
+Arduino track content from [Blueprint 2019](https://blueprint.hackmit.org/2019/).
+
 Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slides)**!
 
 ## Time Block 1 (10-11am Claire, 11-11:30am Noah)
