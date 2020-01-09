@@ -313,3 +313,13 @@ Follow along with the slides **[here](slides.pdf)**!
   * Microphone + LED visualizer
   * Bop-it
 * [SLIDE 13] fin.
+
+## Licenses
+
+This curriculum and `slides.pdf` are licensed under CC BY-SA 4.0 (see [LICENSE_CURRICULUM.txt](LICENSE_CURRICULUM.txt)).
+
+The example code under `1.3_blink/`, `1.5_fade/`, and `2.1_button` is in the public domain.
+
+The example code under `2.2_photoresistor/`, `3.4_lcd_control/`, and `reaction_game` is under the [MIT license](reaction_game/LICENSE.txt).
+
+The example code under `1.6_rgb_led/` and `3.3_helloworld/` is (presumably?) (c) [Elegoo Inc.](https://www.elegoo.com/).
