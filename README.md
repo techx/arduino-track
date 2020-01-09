@@ -1,5 +1,7 @@
 # MIT Blueprint Learnathon 2019 Arduino Track
 
+Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slides)**!
+
 ## Time Block 1 (10-11am Claire, 11-11:30am Noah)
 
 ### 1.0 - Welcome & Outline (Claire)
