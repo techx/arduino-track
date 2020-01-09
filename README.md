@@ -4,19 +4,19 @@
 
 Arduino track content from [Blueprint 2019](https://blueprint.hackmit.org/2019/).
 
-Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slides)**!
+Follow along with the slides **[here](slides.pdf)**!
 
 ## Time Block 1 (10-11am Claire, 11-11:30am Noah)
 
 ### 1.0 - Welcome & Outline (Claire)
 
 * [Write HELPq URL on board]
-* [SLIDE: title] Sit toward the front, two to a kit!
+* [SLIDE 1: title] Sit toward the front, two to a kit!
 * ~ quiet ~
 * **_What_**: Arduino track
 * **_When_**: 1.5 hours
 * **_Who_**: Claire & Noah
-* [SLIDE: HELPq]
+* [SLIDE 2: HELPq]
   * Please raise your hand for general questions
   * These are the mentors!
   * Sign up for Github
@@ -24,8 +24,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
 
 ### 1.1 - Setup
 
-* [SLIDE: go/arduino] Link to install Arduino IDE
-  * [https://go.hackmit.org/arduino](https://go.hackmit.org/arduino)
+* [SLIDE 3] Link to install Arduino IDE
   * [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
 * Troubleshoot issues
   * E.g. linux
@@ -41,6 +40,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
     * USB port
     * Reset button
     * *Built-in LED (transition)*
+  * _[SLIDE 15] optional board layout image_
 
 ### 1.3 - Blink onboard LED (Claire)
 
@@ -73,7 +73,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
 
 ### 1.4 - Blink off-board LED (Noah)
 
-* [SLIDE: breadboard]
+* [SLIDE 4: breadboard]
   * Explain breadboard, wiring
   * ![Off-board LED wiring](img/1.4_wiring.png)
   * ![Off-board LED schematic](img/1.4_schematic.png)
@@ -107,6 +107,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Advanced: how could you get it to fade in and out?
   * Advanced: wire RGB LED
   * ~ observe ~
+* _[SLIDE 14] optional wiring diagram_
 
 ### 1.6 - RGB LED (IF TIME) (Noah)
 
@@ -121,10 +122,11 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Show example of `analogWrite` to each channel
   * Play with different values to see what colors you can create!
   * Advanced: use delays and/or variables/loops to change colors over time
+* _[SLIDE 16] optional RGB LED wiring diagram_
 
 ### 1.7 - Wrap up
 
-* [SLIDE] Wrap-up
+* [SLIDE 5] Wrap-up
   * Leave your hardware as-is
   * Remember where you sat
   * Come back here if you want
@@ -133,13 +135,13 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
 
 ### 2.0 - Settle in (Claire)
 
+* [SLIDE 6] Settle in
 * Quick recap: **OUTPUT**
   * Board
   * Blink onboard LED
   * Blink offboard LED
   * Dim offboard LED
   * RGB LED (?)
-
 * Now: **INPUT**
   * Button
   * Light sensor
@@ -190,11 +192,12 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
     * 1 resistor (1k - brown, black, red)
     * 4 wires
   * Assemble
-  * ![Voltage divider](img/voltage_divider.png)
+    * ![Voltage divider](img/voltage_divider.png)
     * 5V → breadboard power rail
     * Breadboard power rail → photoresistor leg 1
     * Photoresistor leg 2 → A0
     * Photoresistor leg 2 → Breadboard GND rail
+    * _[SLIDE 17] optional voltage divider diagram_
     * [IDE] NEW FILE
       * `Serial.begin(115200)`
         * Serial = communication over USB cable
@@ -212,8 +215,11 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Control LED brightness with photoresistor (sun bright → LED bright, or the opposite)
   * Replace photoresistor with thermistor
   * Replace photoresistor with joystick
+* [SLIDE 7] Part 2 over
 
 ## Time block 3 (2-3pm)
+
+* [SLIDE 8] Settle in
 
 ### 3.1 - Servo
 
@@ -230,6 +236,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Servo BROWN to breadboard GND
   * Servo RED to breadboard high
   * Servo ORANGE to pin 6 (any ~ pin)
+  * _[SLIDE 18] optional servo wiring diagram_
 * [IDE] NEW FILE
   * Servos require a complicated input signal, but thankfully someone else has written code to control them for us. This is what we call a *library*.
   * Sketch → Include Library → Servo
@@ -250,6 +257,7 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Joystick VCC → breadboard high
   * Joystick GND → breadboard GND
   * Joystick data → pin A1
+  * _[SLIDE 19] optional joystick wiring diagram_
 * [IDE] same file
   * `map()`: input is 0 → 1023, but we can only write 0 → 180
 * Extensions
@@ -268,7 +276,8 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * 1 potentiometer
     * a knob that changes resistance when you turn it, for adjusting contrast
   * Many wires
-  * [SLIDE] Just show them the image & let them go
+  * [SLIDE 9] Just show them the image & let them go
+  * _[SLIDE 20] optional alternate LCD wiring diagram_
   * Some wiring in diagram might conflict with earlier parts, so you can either take apart stuff from earlier or change the pins in the code
   * *~ Encourage them: this is how to be more on your own! Look up libraries! Good lead-in for project! Once you get Hello, World you can download Kye’s fun code for joystick ~*
   * File → Examples → LiquidCrystal → HelloWorld
@@ -281,11 +290,15 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
 * Display joystick values to screen
 * Move cursor on-screen w/ joystick
   * code for this is in github, straightforward
+* [SLIDE 10] Part 3 over
 
 ## Time block 4 (3:30 PM - 4:30 PM) - Claire
 
+* [SLIDE 11] Settle in
+
 ### 4.1 - Open-ended project (work on anything or choose guided project)
 
+* [SLIDE 12] List some project ideas
 * LCD w/ joystick if we didn’t get to it
 * Guided project: reaction test game
   * Code at [reaction_game/reaction_game.ino](reaction_game/reaction_game.ino)
@@ -299,3 +312,4 @@ Slides at **[go.hackmit.org/arduino-slides](https://go.hackmit.org/arduino-slide
   * Theremin w/ ultrasonic sensor + speaker
   * Microphone + LED visualizer
   * Bop-it
+* [SLIDE 13] fin.
