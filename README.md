@@ -21,17 +21,14 @@
 * [SLIDE: go/arduino] Link to install Arduino IDE
   * [https://go.hackmit.org/arduino](https://go.hackmit.org/arduino)
   * [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)
-
 * Troubleshoot issues
   * E.g. linux
 
 ### 1.2 - Overview of physical board (Noah)
 
 * [DOC CAM] Open the box!
-
 * *[send mentors silently in parallel to cut open all the zipties holding the wires in the kits]*
-
-* hold the arduino and go over it
+* hold the Arduino and go over it
   * Point out:
     * Microcontroller IC
     * Pins
@@ -41,20 +38,22 @@
 
 ### 1.3 - Blink onboard LED (Claire)
 
+**Source code:** [1.3_blink/1.3_blink.ino](1.3_blink/1.3_blink.ino)
+
 * [IDE]
   * IDE: integrated development environment
   * Partners: each of you programs individually, and then you can each upload
-* setup()
-* loop()
-* pinMode()
+* `setup()`
+* `loop()`
+* `pinMode()`
   * Pins are the black labeled holes on the edges of the board
   * They allow the board to reference external devices
   * In this case, pin 13 *also* refers to the board’s internal LED
   * 2nd argument: each pin is explicitly output or input. We choose output here
-* digitalWrite()
+* `digitalWrite()`
   * Digital value can either be ON or OFF (in this case, HIGH and LOW).
   * So what this means is we turn pin 13 ON.
-* delay()
+* `delay()`
   * Pause execution of program for some number of ms
   * 1000 ms = 1 second
 * Check: 5 lines
@@ -63,7 +62,6 @@
   * CHECK PORT
   * CHECK BOARD
   * CLICK UPLOAD
-
 * Change delay & observe effect
   * ~ Observe ~
 
@@ -71,6 +69,8 @@
 
 * [SLIDE: breadboard]
   * Explain breadboard, wiring
+  * ![Off-board LED wiring](img/1.4_wiring.png)
+  * ![Off-board LED schematic](img/1.4_schematic.png)
 * [DOC CAM] Wire up the LED
   * Gather materials
     * 1 LED (DIRECTIONAL: flat side/smaller leg is GND)
@@ -86,13 +86,15 @@
 
 ### 1.5 - Dim offboard LED (ternary blink) (Claire)
 
+**Source code:** [1.5_fade/1.5_fade.ino](1.5_fade/1.5_fade.ino)
+
 * [DOC CAM] Motivation: in the real world, we want more things than just ON/OFF
   * Turn it on and off really fast at different frequencies
   * We could do it ourselves, or use this handy function, **_PWM_**
   * This function only works on pins that support PWM (look for **~** in front of number)
   * CHANGE THE PIN
   * Wire the LED to **_11_**
-* [IDE] analogWrite()
+* [IDE] `analogWrite()`
   * 255, 0, 64
 * Exploratory
   * Other brightness values
@@ -102,14 +104,15 @@
 
 ### 1.6 - RGB LED (IF TIME) (Noah)
 
-* [Code here](https://github.com/techx/arduino-track/tree/master/1.6RGB_LED)
+**Source code:** [1.6_rgb_led/1.6_rgb_led.ino](1.6_rgb_led/1.6_rgb_led.ino)
+
 * [DOC CAM] show RGB LED
   * Basically 3 LEDs in one package: red, green, and blue
   * They share a common pin that goes to GND, so 4 total
   * Connect each one to an individual output and you can mix any color you want by using **analogWrite** on each pin
   * Show wiring - don’t unwire regular LED!
 * [IDE]
-  * Show example of analogWrite to each channel
+  * Show example of `analogWrite` to each channel
   * Play with different values to see what colors you can create!
   * Advanced: use delays and/or variables/loops to change colors over time
 
@@ -138,6 +141,8 @@
 
 ### 2.1 - Button (Claire)
 
+**Source code:** [2.1_button/2.1_button.ino](2.1_button/2.1_button.ino)
+
 * Digital input is like digital output, but input (receive HIGH or LOW)
 * [DOC CAM]
   * Gather materials
@@ -153,20 +158,22 @@
     * Add wire button → 7
   * ~ pause ~
 * [IDE] New sketch (save the old one)
-* pinMode(pin, INPUT_PULLUP)
+* `pinMode(pin, INPUT_PULLUP)`
   * INPUT
     * we want to get data
   * PULLUP
     * when button is not pressed, not connected to anything
     * would normally be undefined, random static electricity
     * PULLUP means Arduino automatically forces value to be HIGH when not pressed, LOW when pressed.
-* digitalRead()
+* `digitalRead()`
   * Read from pin
 * Extensions
   * Make the button into a light switch (press to toggle on/off)
   * Click to control the color of your RGB LED if you got to 1.6 earlier
 
 ### 2.2 - Analog inputs, Serial plotter (Noah)
+
+**Source code:** [2.2_photoresistor/2.2_photoresistor.ino](2.2_photoresistor/2.2_photoresistor.ino)
 
 * We did digital input, now *analog* input
 * [DOC CAM] Introduce photoresistor
@@ -177,17 +184,17 @@
     * 1 resistor (1k - brown, black, red)
     * 4 wires
   * Assemble
-  * ![image alt text](image_0.png)
+  * ![Voltage divider](img/voltage_divider.png)
     * 5V → breadboard power rail
     * Breadboard power rail → photoresistor leg 1
     * Photoresistor leg 2 → A0
     * Photoresistor leg 2 → Breadboard GND rail
     * [IDE] NEW FILE
-      * Serial.begin(115200)
+      * `Serial.begin(115200)`
         * Serial = communication over USB cable
         * Communication rate
-      * analogRead() (use variable!)
-      * Serial.println()
+      * `analogRead()` (use variable!)
+      * `Serial.println()`
       * Small delay
   * Observe the serial monitor
     * See how numbers go up and down
@@ -238,7 +245,7 @@
   * Joystick GND → breadboard GND
   * Joystick data → pin A1
 * [IDE] same file
-  * map(): input is 0 → 1023, but we can only write 0 → 180
+  * `map()`: input is 0 → 1023, but we can only write 0 → 180
 * Extensions
   * Play with other joystick axis
   * Use joystick toggle button (?)
@@ -246,6 +253,8 @@
   * Combine anything you have lol
 
 ### 3.3 - LCD setup (IF TIME)
+
+**Source code:** [3.3_helloworld/3.3_helloworld.ino](3.3_helloworld/3.3_helloworld.ino)
 
 * [DOC CAM] Motivation: PRETTY SCREEN, learn how to DIY
 * Gather parts
@@ -261,6 +270,8 @@
 
 ### 3.4 - Extensions (we probably won’t get to this)
 
+**Source code:** [3.4_lcd_control/3.4_lcd_control.ino](3.4_lcd_control/3.4_lcd_control.ino)
+
 * Display joystick values to screen
 * Move cursor on-screen w/ joystick
   * code for this is in github, straightforward
@@ -270,9 +281,9 @@
 ### 4.1 - Open-ended project (work on anything or choose guided project)
 
 * LCD w/ joystick if we didn’t get to it
-* Guided projects (w/code + wiring diagrams)
-  * Reaction-test (Stop LED in the middle)
-  * w/ additional add-ons (LCD display for score / buzzer for audio feedback)
+* Guided project: reaction test game
+  * Code at [reaction_game/reaction_game.ino](reaction_game/reaction_game.ino)
+  * Additional add-ons: LCD display for score, buzzer for audio feedback
 * [SLIDE] project ideas
   * Radar system (too complex (?))
     * coding > wiring/hardware
