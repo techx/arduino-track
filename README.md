@@ -320,6 +320,6 @@ This curriculum and `slides.pdf` are licensed under CC BY-SA 4.0 (see [LICENSE_C
 
 The example code under `1.3_blink/`, `1.5_fade/`, and `2.1_button/` is in the public domain.
 
-The example code under `2.2_photoresistor/`, `3.4_lcd_control/`, and `reaction_game/` is under the [MIT license](reaction_game/LICENSE.txt).
+The example code under `2.2_photoresistor/`, `3.4_lcd_control/`, and `reaction_game/` is under the [MIT](2.2_photoresistor/LICENSE.txt) [license](reaction_game/LICENSE.txt).
 
 The example code under `1.6_rgb_led/` and `3.3_helloworld/` comes from the [Elegoo Inc.](https://www.elegoo.com/) UNO R3 Super Starter Kit [example code](https://www.elegoo.com/tutorial/Elegoo%20Super%20Starter%20Kit%20for%20UNO%20V1.0.2019.09.17.zip) with no explicit license provided.
