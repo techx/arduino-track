@@ -18,6 +18,7 @@ Follow along with the slides **[here](slides.pdf)**!
 * **_Who_**: Claire & Noah
 * [SLIDE 2: HELPq]
   * Please raise your hand for general questions
+  * If you have trouble seeing, please come up closer to the front because 
   * These are the mentors!
   * Sign up for Github
   * Use that to sign in at [https://q.hackmit.org](https://q.hackmit.org)
