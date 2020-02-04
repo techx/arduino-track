@@ -62,6 +62,7 @@ Follow along with the slides **[here](slides.pdf)**!
 * `delay()`
   * Pause execution of program for some number of ms
   * 1000 ms = 1 second
+* Example Fie: 'file -> sketchbook -> basics -> blink'
 * Check: 5 lines
 * Upload time!
   * PLUG IN
