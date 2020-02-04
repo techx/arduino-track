@@ -102,6 +102,8 @@ Follow along with the slides **[here](slides.pdf)**!
   * This function only works on pins that support PWM (look for **~** in front of number)
   * CHANGE THE PIN
   * Wire the LED to **_11_**
+  
+* Explain the difference between analog and digital signals
 * [IDE] `analogWrite()`
   * 255, 0, 64
 * Exploratory
