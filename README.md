@@ -6,6 +6,25 @@ Arduino track content from [Blueprint 2020](https://blueprint.hackmit.org/).
 
 Follow along with the slides **[here](slides.pdf)**!
 
+## Lesson breakdown
+
+1. 10-11:30am
+  - welcome, setup
+  - board overview
+  - blink onboard LED
+  - blink offboard LED
+  - dim LED
+  - challenge: RGB LED
+2. 1-2pm
+  - button
+  - light sensor, Serial monitor
+3. 2:15-3:15pm
+  - servo
+  - servo with joystick
+  - challenge: LCD screen
+4. 4-5pm
+  - open-ended challenge
+
 ## Attribution
 
 The layout and styling for this website is based on the MIT [Missing Semester](https://github.com/missing-semester/missing-semester) course source code.
