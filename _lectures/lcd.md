@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: LCD Screen
+workshop: 3
 number: 9
 ---
 

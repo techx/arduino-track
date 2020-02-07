@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: Dimming LEDs (analog output)
+workshop: 1
 number: 4
 ---
 

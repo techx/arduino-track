@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: Welcome and Setup
+workshop: 1
 number: 1
 ---
 

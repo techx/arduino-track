@@ -2,6 +2,7 @@
 layout: lecture
 title: Button (digital input)
 number: 6
+workshop: 2
 ---
 
 ### 2.0 - Settle in (Claire)

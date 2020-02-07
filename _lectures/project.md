@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: "[bonus] Open-Ended Project"
+workshop: 4
 number: 10
 ---
 

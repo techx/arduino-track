@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: Overview of the Board
+workshop: 1
 number: 2
 ---
 

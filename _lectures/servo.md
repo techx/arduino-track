@@ -1,6 +1,7 @@
 ---
 layout: lecture
 title: Servo (libraries)
+workshop: 3
 number: 8
 ---
 
