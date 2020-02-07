@@ -12,7 +12,7 @@ The layout and styling for this website is based on the MIT [Missing Semester](h
 
 ## Licenses
 
-All the content in this curriculum, including the website source code, lecture content, and slides are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+All the content in this curriculum, including the website source code, lecture content, and slides are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 The example code under `1.3_blink/`, `1.5_fade/`, and `2.1_button/` is in the public domain.
 
