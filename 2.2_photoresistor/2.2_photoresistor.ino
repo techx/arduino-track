@@ -4,7 +4,7 @@
   This example shows how to print analog values 
   to the serial monitor, using a photoresistor
 
-  Copyright 2019 HackMIT (Kye Burchard)
+  Copyright 2020 HackMIT (Kye Burchard)
  */
 
 int sensor = A5;

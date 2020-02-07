@@ -4,7 +4,7 @@
   This example shows how to control an LED using
   a simple digital button.
 
-  Copyright 2019 HackMIT (Kye Burchard)
+  Copyright 2020 HackMIT (Kye Burchard)
  */
 
 int led = 13;

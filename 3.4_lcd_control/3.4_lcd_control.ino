@@ -1,9 +1,9 @@
 /*
  Controlling LCD position using a potentiometer (variable resistor)
 
- For the 2019 Blueprint Arduino learnathon track
+ For the 2020  Blueprint Arduino learnathon track
 
- Copyright 2019 HackMIT (Kye Burchard)
+ Copyright 2020 HackMIT (Kye Burchard)
 */
 // include the library code:
 #include <LiquidCrystal.h>
