@@ -111,7 +111,9 @@ Hopefully your blink will look something like this! If you've got this
 working, you can play with changing the delay amount from 1000ms to something
 else.
 
-## Blink off-board LED
+# Blink off-board LED
+
+## Gather materials
 
 Now that we've got the onboard LED blinking, let's try it with an LED we wire
 up ourselves. Open up your kit and pull out the breadboard.
@@ -126,19 +128,35 @@ would see how the rows and columns are connected.
 Anything connected by metal in this photo is connected within the breadboard.
 We'll use this breadboard to connect the LED to the Arduino.
 
-  * ![Off-board LED wiring]({{ site.baseurl }}/staticimg/1.4_wiring.png)
-  * ![Off-board LED schematic]({{ site.baseurl }}/staticimg/1.4_schematic.png)
-* [DOC CAM] Wire up the LED
-  * Gather materials
-    * 1 LED (DIRECTIONAL: flat side/smaller leg is GND)
-    * 1 Resistor (red, red, brown = 220 ohm)
-    * 2 wires (any color!)
-  * UNPLUG before wiring (makes sure you don’t damage anything)
-  * Assemble materials
-    * Long leg goes to resistor
-    * Resistor goes to pin 13
-    * Short leg goes to GND
-* Change pin in code & wiring and observe effect
-  * ~ observe ~
+Next, take out an LED from your kit. Any color is fine!
+
+Notice that the LED is _directional_: one "leg" is shorter and one is longer.
+Also, the plastic cover has a slightly flat edge on the side with the short
+leg.
+
+Also get a 220 ohm resistor from the kit. A 220 ohm resistor has a
+**red-red-black-black-brown** stripe pattern. The paper holding the resistor
+might also say "220" on it.
+
+Finally, take out two wires. Wires of any color are fine, but the convention
+is to use black for ground.
+
+![All parts assembled!]({{ site.baseurl }}/static/img/blink.jpg)
+
+## Wire up LED
+
+Now it's time to wire it up! Always unplug the USB power cable from your
+board before wiring to make sure you don't damage anything.
+
+Wire as follows:
+
+- Connect a wire from GND on the Arduino to some row on the breadboard.
+- Insert the LED into the breadboard so the short leg is in the same row as GND.
+- Insert the resistor into the breadboard so one leg is in the same row as the long leg of the LED.
+- Connect a wire from the row with the other resistor leg to the board pin 13.
+
+![All parts assembled!]({{ site.baseurl }}/static/img/blink-done.png)
+
+This is approximately what your wiring might look like! Now, let's do something more advanced with this LED.
 
 [ide]: https://en.wikipedia.org/wiki/Integrated_development_environment
