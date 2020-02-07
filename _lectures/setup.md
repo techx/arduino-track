@@ -29,7 +29,7 @@ You should have [installed the Arduino IDE][arduino] before coming to the
 learnathon. If not, please do so now! Keep it open on your screen once you
 have it installed. Mentors will float around to help troubleshoot.
 
-![A screenshot of a blank Arduino sketch](/static/img/blank_ide.png)
+![A screenshot of a blank Arduino sketch]({{ site.baseurl }}/static/img/blank_ide.png)
 
 [arduino]: https://www.arduino.cc/en/Main/Software
 [queue]: https://q.hackmit.org

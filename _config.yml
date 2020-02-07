@@ -1,5 +1,6 @@
 title: MIT Blueprint Learnathon Arduino Track 2020
 url: "https://techx.io/arduino-track/"
+baseurl: '/arduino-track'
 
 markdown: kramdown
 kramdown:

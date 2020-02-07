@@ -19,7 +19,7 @@ Let's notice a few things on this board.
 
 ## Microcontroller IC
 
-![The core chip of the board.](/static/img/board_ic.jpg)
+![The core chip of the board.]({{ site.baseurl }}/static/img/board_ic.jpg)
 
 The IC (integrated circuit) is the main "brains" of the board. When we upload
 code, we upload it to this chip. Everything else on the board is various
@@ -27,7 +27,7 @@ peripherals related to input and output.
 
 ## Pins
 
-![The pins on the board.](/static/img/board_pins.jpg)
+![The pins on the board.]({{ site.baseurl }}/static/img/board_pins.jpg)
 
 The pins on the board allow it to interact with the world. The pins can serve
 different purposes, from general purpose input-output [(GPIO)][gpio] to
@@ -35,21 +35,21 @@ various communication protocols like [I2C][i2c].
 
 ## USB Port
 
-![The USB port on the board.](/static/img/board_usb.jpg)
+![The USB port on the board.]({{ site.baseurl }}/static/img/board_usb.jpg)
 
 The USB port lets us program the board and send and receive debugging
 messages from it.
 
 ## Reset button
 
-![The reset button on the board.](/static/img/board_reset.jpg)
+![The reset button on the board.]({{ site.baseurl }}/static/img/board_reset.jpg)
 
 If you press the reset button, the Arduino will restart its execution from
 the beginning of the program you uploaded. This can be helpful for debugging.
 
 ## Built-in LED
 
-![The built-in LED on the board.](/static/img/board_led.jpg)
+![The built-in LED on the board.]({{ site.baseurl }}/static/img/board_led.jpg)
 
 This board comes with a small LED (light) embedded in the board. It's kind of
 hard to see, but it's marked by an "L" on the [silkscreen][silkscreen]. As

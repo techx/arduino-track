@@ -13,7 +13,7 @@ Follow along with the slides **[here](slides.pdf)**!
   {% assign lectures = site.lectures | sort: 'number' %}
   {% for lecture in lectures %}
   <li>
-    <a href="{{ lecture.url }}">{{ lecture.title }}</a>
+    <a href="{{ site.baseurl }}{{ lecture.url }}">{{ lecture.title }}</a>
     {% if lecture.details %}
     <br>
     ({{ lecture.details }})
