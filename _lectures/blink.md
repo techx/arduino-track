@@ -49,7 +49,7 @@ void loop() {
 }
 ```
 
-As you may recall from our [board overview]({{ site.base }}/lectures/board/), "pins" are the
+As you may recall from our [board overview]({{ site.baseurl }}/lectures/board/), "pins" are the
 labeled black holes on the edges of the board. They allow the board to
 reference external devices. In this case, pin 13 _also_ refers to the board's
 internal LED.
