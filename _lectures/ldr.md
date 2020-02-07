@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: Light Sensor (analog input)
+title: Light Sensor
+details: analog input
 workshop: 2
 number: 7
 ---

@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: "RGB LED (bonus)"
+title: "RGB LED"
+details: bonus exercise!
 workshop: 1
 number: 5
 ---

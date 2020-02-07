@@ -20,8 +20,7 @@ Follow along with the slides **[here](slides.pdf)**!
   <li>
     <a href="{{ site.baseurl }}{{ lecture.url }}">{{ lecture.title }}</a>
     {% if lecture.details %}
-    <br>
-    ({{ lecture.details }})
+    <em><small>({{ lecture.details }})</small></em>
     {% endif %}
   </li>
   {% endif %}
@@ -37,8 +36,7 @@ Follow along with the slides **[here](slides.pdf)**!
   <li>
     <a href="{{ site.baseurl }}{{ lecture.url }}">{{ lecture.title }}</a>
     {% if lecture.details %}
-    <br>
-    ({{ lecture.details }})
+    <em><small>({{ lecture.details }})</small></em>
     {% endif %}
   </li>
   {% endif %}
@@ -54,8 +52,7 @@ Follow along with the slides **[here](slides.pdf)**!
   <li>
     <a href="{{ site.baseurl }}{{ lecture.url }}">{{ lecture.title }}</a>
     {% if lecture.details %}
-    <br>
-    ({{ lecture.details }})
+    <em><small>({{ lecture.details }})</small></em>
     {% endif %}
   </li>
   {% endif %}
@@ -71,8 +68,7 @@ Follow along with the slides **[here](slides.pdf)**!
   <li>
     <a href="{{ site.baseurl }}{{ lecture.url }}">{{ lecture.title }}</a>
     {% if lecture.details %}
-    <br>
-    ({{ lecture.details }})
+    <em><small>({{ lecture.details }})</small></em>
     {% endif %}
   </li>
   {% endif %}

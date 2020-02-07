@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: Servo (libraries)
+title: Servo and Joystick
+details: libraries
 workshop: 3
 number: 8
 ---

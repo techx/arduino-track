@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: Button (digital input)
+title: Button
+details: digital input
 number: 6
 workshop: 2
 ---

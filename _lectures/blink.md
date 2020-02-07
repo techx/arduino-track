@@ -1,6 +1,7 @@
 ---
 layout: lecture
-title: Blinking LEDs (digital output)
+title: Blinking LEDs
+details: digital output
 workshop: 1
 number: 3
 ---
