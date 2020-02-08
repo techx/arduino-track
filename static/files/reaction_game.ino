@@ -1,3 +1,8 @@
+/*# Final project: reaction speed game
+
+Reaction speed game where you stop the LED in the right spot!
+*/
+
 int ledPin1 = 1; // The pin of the first LED
 int ledPin2 = 2; // etc.
 int ledPin3 = 3;

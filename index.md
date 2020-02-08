@@ -7,8 +7,6 @@ title: Blueprint 2020 Learnathon Arduino Track
 
 Arduino track content from [Blueprint 2020](https://blueprint.hackmit.org/).
 
-Follow along with the slides **[here](slides.pdf)**!
-
 ## Lectures
 
 ### Workshop 1: 10-11:30am
