@@ -27,15 +27,17 @@ Store the index position of the matching items
 {% endif %}
 {% endfor %}
 
-<p>
+<p class="pagination">
     {% if prev %}
-    <a href="{{ site.baseurl}}{{ prev.url }}" class="prev" title="{{ prev.title }}">&lt; Previous</a>
+    <a href="{{ site.baseurl}}{{ prev.url }}" class="paginate" title="{{ prev.title }}">&lt; Previous:
+        {{ prev.title }}</a>
     {% endif %}
     {% if prev and next %}
-    <span> | </span>
+    <span class="paginate paginate-middle"> &middot; </span>
     {% endif %}
     {% if next %}
-    <a href="{{ site.baseurl }}{{ next.url }}" class="next" title="{{ next.title }}">Next &gt;</a>
+    <a href="{{ site.baseurl }}{{ next.url }}" class="paginate paginate-right" title="{{ next.title }}">Next:
+        {{ next.title }} &gt;</a>
     {% endif %}
 </p>
 {% endif %}

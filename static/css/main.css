@@ -164,6 +164,22 @@ hr {
 
 /* Classes */
 
+.pagination {
+  display: flex;
+}
+
+.paginate {
+  flex: auto;
+}
+
+.paginate-middle {
+  text-align: center;
+}
+
+.paginate-right {
+  text-align: right;
+}
+
 .title {
   font-size: 2rem;
 }
