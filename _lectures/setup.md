@@ -33,4 +33,4 @@ have it installed. Mentors will float around to help troubleshoot.
 ![A screenshot of a blank Arduino sketch]({{ site.baseurl }}/static/img/blank_ide.png)
 
 [arduino]: https://www.arduino.cc/en/Main/Software
-[queue]: https://q.hackmit.org
+[queue]: http://go.hackmit.org/q
