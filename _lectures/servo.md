@@ -7,14 +7,16 @@ number: 8
 ---
 
 Welcome back for workshop 3! This time we will learn how to connect the
-Arduino to more complicated outputs using libraries.
+Arduino to more complex outputs using libraries.
 
 A [servo][servo] is a motor module that can turn to a specific angle. It's useful
 for things like _robotic arms_ that require precise control.
 
 ## Assembly and wiring
 
-To wire up the servo you'll need three more wires. The servo also has a "hat" that attaches on top and moves. Choose any one of the hats and snap it onto the servo.
+To wire up the servo you'll need three more wires. The servo also has a "hat"
+that attaches on top and moves. Choose any one of the hats and snap it onto
+the servo.
 
 ![The servo and some hats.]({{ site.baseurl }}/static/img/servo.png)
 
@@ -30,9 +32,11 @@ _**WARNING**: If you wire this backwards you'll break the servo :( be careful!!_
 
 Once again save your old Arduino code and create a new sketch.
 
-Servos require a complicated input signal, but thankfully someone else has written code to control them for us. This is what we call a _library_.
+Servos require a complicated input signal, but thankfully someone else has
+written code to control them for us. This is what we call a _library_.
 
-In the Arduino IDE go to `Sketch >  Include Library > Servo`. This will add the line `#include <Servo.h>` to the top of your sketch.
+In the Arduino IDE go to `Sketch > Include Library > Servo`. This will add
+the line `#include <Servo.h>` to the top of your sketch.
 
 ```cpp
 #include <Servo.h>
@@ -221,6 +225,8 @@ Upload this and you'll be able to control your motor with your joystick!
 **Bonus exercise**: Wire up the other joystick axis and/or toggle button to
 control something else on your breadboard, like LED brightness or RGB LED
 color.
+
+If we have enough time, we'll wire up an even more complicated module next.
 
 [servo]: https://en.wikipedia.org/wiki/Servomotor
 [servo-docs]: https://www.arduino.cc/en/reference/servo
