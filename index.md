@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Blueprint 2020 Learnathon Arduino Track
 ---
 
 ![Blueprint 2020 banner]({{ site.baseurl }}/static/img/banner.jpg)
