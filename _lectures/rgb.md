@@ -19,7 +19,7 @@ The LONGEST pin is the one that goes to ground.
 Don't unwire your regular LED to set this up! There's plenty of pins for both.
 
 To wire it up, connect each leg of the three non-ground RGB LED legs to an
-individual output pin. Don't forget a 220 ohm resistor!
+individual output pin. Don't forget a 220 Ohm resistor!
 
 ![Example wiring diagram]({{ site.baseurl }}/static/img/rgb_wiring.png)
 

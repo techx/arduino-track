@@ -136,7 +136,7 @@ Notice that the LED is _directional_: one "leg" is shorter and one is longer.
 Also, the plastic cover has a slightly flat edge on the side with the short
 leg.
 
-Also get a 220 ohm resistor from the kit. A 220 ohm resistor has a
+Also get a 220 Ohm resistor from the kit. A 220 Ohm resistor has a
 **red-red-black-black-brown** stripe pattern. The paper holding the resistor
 might also say "220" on it.
 
