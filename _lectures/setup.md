@@ -5,7 +5,7 @@ workshop: 1
 number: 1
 ---
 
-Welcome to the Blueprint 2020 Learnathon Arduino track! In this course we'll
+Welcome to the Blueprint Learnathon Arduino track! In this course we'll
 learn the basics of programming an Arduino microcontroller.
 
 Please **sit toward the front of the class** so you can see the projector

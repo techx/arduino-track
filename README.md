@@ -1,6 +1,6 @@
 # MIT Blueprint Learnathon 2019 Arduino Track
 
-![Blueprint 2020 banner](static/img/banner.jpg)
+![Blueprint banner](static/img/banner.jpg)
 
 Arduino track content from [Blueprint 2020](https://blueprint.hackmit.org/).
 

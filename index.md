@@ -2,7 +2,7 @@
 layout: page
 ---
 
-![Blueprint 2020 banner]({{ site.baseurl }}/static/img/banner.jpg)
+![Blueprint banner]({{ site.baseurl }}/static/img/banner.jpg)
 
 Arduino track content from [Blueprint 2020](https://blueprint.hackmit.org/).
 
