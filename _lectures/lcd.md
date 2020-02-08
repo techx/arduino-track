@@ -55,7 +55,14 @@ joystick.
 ## Wrap up
 
 And that's the end of workshop 3! In the next workshop you can build anything
-you want for the hour using the hardware in your kit.
+you want for the hour using the hardware in your kit. Take advantage of this
+time to **brainstorm project ideas**!
+
+Some ideas:
+
+- Theremin (buzzer, photoresistor)
+- Bop-it game (buttons, potentiometer, tilt switch, etc.)
+- Burglar alarm (ultrasonic sensor, buzzer, LEDs)
 
 [lcd]: https://en.wikipedia.org/wiki/Liquid-crystal_display
 [pot]: https://en.wikipedia.org/wiki/Potentiometer
