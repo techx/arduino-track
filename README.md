@@ -40,8 +40,7 @@ The Arduino code `static/files/lcd_control.ino` and
 
 The Arduino code under `static/files/rgb_led.ino` comes from the [Elegoo
 Inc.](https://www.elegoo.com/) UNO R3 Super Starter Kit [example
-code](https://www.elegoo.com/tutorial/Elegoo%20Super%20Starter%20Kit%20for%20UNO%20V1.0.2019.09.17.zip)
-with no explicit license provided.
+code][elegoo-code] with no explicit license provided.
 
 ## Notes
 
@@ -60,3 +59,6 @@ don't have to rewire anything. We emphasize interactive projects like games.
 
 We try to minimize dead time / tedious tasks by providing all code and
 diagrams on this website.
+
+[mit]: https://opensource.org/licenses/MIT
+[elegoo-code]: https://www.elegoo.com/tutorial/Elegoo%20Super%20Starter%20Kit%20for%20UNO%20V1.0.2019.09.17.zip
