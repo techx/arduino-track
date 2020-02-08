@@ -7,6 +7,47 @@ layout: default
 
 {{ content }}
 
+{% comment %}
+From https://talk.jekyllrb.com/t/previous-and-next-links-with-a-collections/3171
+{% endcomment %}
+{% assign items_raw = site.lectures %}
+{% assign items = items_raw | sort: 'number' | reverse %}
+
+{% if items.size > 1 %}
+{% comment %}
+Store the index position of the matching items
+{% endcomment %}
+{% for item in items %}
+{% if item.title == page.title %}
+{% assign item_index = forloop.index %}
+{% endif %}
+{% endfor %}
+
+{% assign prev_index = item_index | plus: 1 %}
+{% assign next_index = item_index | minus: 1 %}
+
+{% for item in items %}
+{% if forloop.index == prev_index %}
+{% assign prev = item %}
+{% endif %}
+{% if forloop.index == next_index %}
+{% assign next = item %}
+{% endif %}
+{% endfor %}
+
+<p>
+    {% if prev %}
+    <a href="{{ site.baseurl}}{{ prev.url }}" class="prev" title="{{ prev.title }}">&lt; Previous</a>
+    {% endif %}
+    {% if prev and next %}
+    <span> | </span>
+    {% endif %}
+    {% if next %}
+    <a href="{{ site.baseurl }}{{ next.url }}" class="next" title="{{ next.title }}">Next &gt;</a>
+    {% endif %}
+</p>
+{% endif %}
+
 <hr>
 
 <div class="small center">
