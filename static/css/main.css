@@ -337,19 +337,19 @@ input[type=checkbox]:checked ~ .menu-label:after {
 @media (prefers-color-scheme: dark) {
 
   body {
-      background-color: #303030;
+      background-color: #23233f;
       color: #ddd
   }
 
   a {
-    color: #66D9EF;
+    color: #24e5ff;
     /*color: #A6E22E;*/
     text-decoration: none;
   }
 
   a:hover {
     color: #000;
-    background-color: #66D9EF;
+    background-color: #24e5ff;
     text-decoration: none;
   }
 
@@ -358,16 +358,16 @@ input[type=checkbox]:checked ~ .menu-label:after {
     }
 
   #nav-bg, a#logo, #top-nav a {
-    background-color: #A6E22E;
+    background-color: #24e5ff;
     color: #202020;
   }
 
   a:hover > code  {
-      background-color: #66D9EF;
+      background-color: #24e5ff;
   }
 
   .accent {
-      color: #F92672;
+      color: #ec0e6a;
   }
 }
 
