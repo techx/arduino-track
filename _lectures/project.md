@@ -5,27 +5,54 @@ workshop: 4
 number: 10
 ---
 
-* [SLIDE 8] Settle in
+It's the final workshop! You're probably tired out from a long day of
+learning, so for this workshop you have the whole hour to work on any project
+you want.
 
-## Time block 4 (3:30 PM - 4:30 PM) - Claire
+The [Arduino reference][arduino-ref] documents the Arduino language's
+functions, variables, and structure.
 
-* [SLIDE 11] Settle in
+Don’t be afraid to talk to mentors and each other 😊
 
-### 4.1 - Open-ended project (work on anything or choose guided project)
+## Guided project: Reaction Speed Game
 
-* [SLIDE 12] List some project ideas
-* LCD w/ joystick if we didn’t get to it
-* Guided project: reaction test game
-  * Code at [reaction_game/reaction_game.ino](reaction_game/reaction_game.ino)
-  * Additional add-ons: LCD display for score, buzzer for audio feedback
-* [SLIDE] project ideas
-  * Radar system (too complex (?))
-    * coding > wiring/hardware
-    * [https://www.youtube.com/watch?v=kQRYIH2HwfY](https://www.youtube.com/watch?v=kQRYIH2HwfY)
-  * Temperature/humidity monitor
-  * Remote control w/ servo/stepper (?)
-  * Theremin w/ ultrasonic sensor + speaker
-  * Microphone + LED visualizer
-  * Bop-it
-* [SLIDE 13] fin.
+The Reaction Speed Game uses 5 LEDs and a button -- can you react fast enough
+to stop the light in the right spot? You can build off this starter project
+and add new features.
 
+The code is [here]({{ site.baseurl }}/static/files/reaction_game.ino).
+
+Some possible add-ons:
+
+- Display the final score on the LCD
+- Incorporate a buzzer for audio feedback
+
+## Other guided projects
+
+Play around with combining parts in creative ways! Some new examples and
+examples we mentioned before:
+
+- Take on any of the bonus exercises mentioned at the end of each lesson.
+- Build upon the [LCD and joystick example]({{ site.baseurl
+  }}/static/files/lcd_control.ino) we made to make a game.
+- Music visualizer (microphone, LEDs)
+- Radar system [[video][radar]]-- more coding than wiring/hardware
+- Theremin (buzzer, photoresistor)
+- Bop-it game (buttons, potentiometer, tilt switch, etc.)
+- Burglar alarm (ultrasonic sensor, buzzer, LEDs)
+
+If you'd like some more guidance, the Elegoo Uno Super Starter Kit
+[guidebook][elegoo-guide] and [starter code][elegoo-code] has lots of project
+ideas.
+
+## Once you're done
+
+Take pictures and videos of your creation, then go ahead and **disassemble it
+and return the parts to the box**.
+
+If you’re coming to the hackathon, we’ll see you tomorrow!
+
+[elegoo-guide]: http://go.hackmit.org/arduino-guide
+[elegoo-code]: http://go.hackmit.org/arduino-code
+[arduino-ref]: https://www.arduino.cc/reference/en/
+[radar]: https://www.youtube.com/watch?v=kQRYIH2HwfY

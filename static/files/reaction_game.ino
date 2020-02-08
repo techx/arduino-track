@@ -1,6 +1,8 @@
-/*# Final project: reaction speed game
+/*
+Final project: Reaction Speed Game
+Stop the LED in the right spot!
 
-Reaction speed game where you stop the LED in the right spot!
+MIT License, (c) 2020 Rinik Kumar
 */
 
 int ledPin1 = 1; // The pin of the first LED
